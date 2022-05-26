@@ -9,14 +9,17 @@
 </head>
 <body>
     <table>
+        <caption>
+            Boletin Acadêmico
+        </caption>
         <thead>
             <tr>
-                <th rowspan="2">Área</th>
-                <th rowspan="2">Disciplina</th>
-                <th colspan="2">Notas <th rowspan="2">Média</th>
+                <th scope="col" rowspan="2">Área</th>
+                <th scope="col" rowspan="2">Disciplina</th>
+                <th scope="colgroup" colspan="2">Notas <th scope="col" rowspan="2">Média</th>
                     <tr>
-                        <th>Nota 1</th>
-                        <th>Nota 2</th>
+                        <th scope="col">Nota 1</th>
+                        <th scope="col">Nota 2</th>
                     </tr>
                 </th>            
             </tr> 
@@ -24,7 +27,7 @@
 
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th scope="rowgroup" rowspan="4">Exatas</th>
                 <td>Matemática</td>
                 <td>9,5</td>
                 <td>8,5</td>
@@ -34,41 +37,41 @@
                 <td>Física</td>
                 <td>7,5</td>
                 <td>6,5</td>
-                <td>8,0</td> 
+                <td>7,0</td> 
             </tr>
             <tr>
                 <td>Química</td>
-                <td>4,5</td>
+                <td>7,5</td>
                 <td>5,0</td>
                 <td>6,5</td>
             </tr>
             <tr>
                 <td>Biologia</td>
-                <td>9,5</td>
-                <td>8,5</td>
-                <td>9,0</td>
+                <td>7,5</td>
+                <td>7,5</td>
+                <td>7,5</td>
             </tr>
             <tr>
-                <th colspan="4">Média de Exatas</th>
-                <td>0,0</td>
+                <th scope="row" style="text-align: left;" class="media" colspan="4">Média de Exatas</th>
+                <td class="Ntotal">7,5</td>
             </tr>
 
             <tr>
-                <th rowspan="2">Humanas</th>
+                <th scope="rowgroup" rowspan="2">Humanas</th>
                 <td>História</td>
+                <td>10</td>
                 <td>9,5</td>
-                <td>8,5</td>
-                <td>9,0</td>
+                <td>9,7</td>
             </tr>
             <tr>
                 <td>Geografia</td>
                 <td>7,5</td>
-                <td>6,5</td>
+                <td>8,5</td>
                 <td>8,0</td> 
             </tr>
             <tr>
-                <th colspan="4">Média de Humanas</th>
-                <td>0,0</td>
+                <th scope="row" style="text-align: left;" class="media" colspan="4">Média de Humanas</th>
+                <td class="Ntotal">8,8</td>
             </tr>
         </tbody>
     </table>
