@@ -1,2 +1,2 @@
 # Desafios-listas
- Desafio do curso para criar duas listas usando conhecimento adiquirido em aula.
+ Desafio do curso para criar listas usando conhecimento adiquirido em aula.
